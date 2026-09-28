@@ -10,10 +10,10 @@ class Conta:
     def definir_senha(self, senha):
         self.senha = senha
        
-    def retirar_saldo(self, saque):
-        if self.saldo >= saque:
-            self.saldo -= saque
-            print(f"Saque de R$ {saque} realizado!")
+    def retirar_saldo(self, vsaque):
+        if self.saldo >= vsaque:
+            self.saldo -= vsaque
+            print(f"Saque de R$ {vsaque} realizado!")
         else:
             print("Saldo insuficiente!")
 
